@@ -1,0 +1,60 @@
+body {
+    color: aliceblue;
+    background-color:rgb(23, 26, 26);
+    font-family:Arial, Helvetica;
+    margin: 0;
+    padding: 0;
+  }
+ img{
+  float: left;
+          border-radius: 50%;
+          margin-right: 20px; 
+          max-width: 130px; 
+          height: auto;
+ }
+  header {
+    background-color: rgb(23, 26, 26);
+    color: #fff;
+    padding: 1em 0;
+    text-align: center; overflow: hidden;
+  }
+  nav {
+    background-color: rgb(23, 26, 26);
+    padding: 1em 0;
+  }
+  nav a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1em;
+  }
+  section {
+    padding: 2em;
+  }
+  footer {
+     background-color: rgb(23, 26, 26);
+    text-align: center;
+    padding: 1em 0;
+    position: fixed; color: aliceblue;
+    width: 100%;
+    bottom: 0;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  label {
+    margin-bottom: 0.5em;
+  }
+  input, textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+  }
+  button {
+    background-color: #333333;
+    color: #fff;
+    padding: 0.5em;
+    border: none;
+    cursor: pointer;
+  }
